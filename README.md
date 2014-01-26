@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/nekman/jQuery.attrMatcher.png?branch=master)](https://travis-ci.org/nekman/jQuery.attrMatcher)
 
+[![Coverage Status](https://coveralls.io/repos/nekman/jQuery.attrMatcher/badge.png?branch=master)](https://coveralls.io/r/nekman/jQuery.attrMatcher?branch=master)
 
 Searches for matching ```attributes``` and triggers a ```match``` event when it finds 
 elements with matching attributes.
