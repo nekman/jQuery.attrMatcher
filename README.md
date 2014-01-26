@@ -49,3 +49,5 @@ $('#table')
      attr: 'data-highlight'
   });
 ```
+
+Try the example here: http://jsfiddle.net/4M6nh/

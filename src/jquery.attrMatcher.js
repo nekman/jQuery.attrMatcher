@@ -33,7 +33,7 @@
     
     this.$nodes
           .on(settings.on, this.handle(this, settings.onmatch))
-          .on(settings.off, this.handle(this, settings.onleave));
+          .on(settings.off, this.handle(this, settings.onunmatch));
   }
   
   Matcher.prototype.handle = function(self, eventName) {
