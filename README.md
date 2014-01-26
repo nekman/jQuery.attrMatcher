@@ -1,4 +1,4 @@
-=== jQuery.attrMatcher ===
+#jQuery.attrMatcher
 
 Searches for matching ```attributes``` and triggers a ```match``` event when it has finds 
 elements with matching attributes.
