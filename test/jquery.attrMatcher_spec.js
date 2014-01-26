@@ -18,6 +18,12 @@ define(function(require, exports, module) {
   });
 
   describe('jquery.attrMatcher - finds', function() {
+    it('returns element if length is "falsy"', function() {
+      var $node = $('#non-existing');
+
+      $node.attrMatcher().length.should.equal(0);
+    });
+
     it('triggers "match" event', function() {
       var $parent = $('table tbody'),
           $trs    = $parent.find('tr'),

@@ -24,6 +24,7 @@
     "should": "~3.1.0",
     "sinon": "~1.7.3",
     "gulp-mocha": "~0.4.1",
+    "istanbul": "~0.2.3",
     "jshint-stylish": "~0.1.5"
   },
   "scripts": {
