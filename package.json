@@ -1,4 +1,15 @@
 {
+  "name": "jquery.attrMatcher",
+  "version": "0.0.1",
+  "homepage": "https://github.com/nekman/jQuery.attrMatcher",
+  "authors": [
+    "nekman@github.com"
+  ],  
+  "description": "Find elements with matching attributes.",
+  "repository": {
+    "type": "git",    
+    "url": "git://github.com/nekman/jQuery.attrMatcher.git"
+  },
   "devDependencies": {
     "gulp-util": "~2.2.12",
     "gulp": "~3.5.0",

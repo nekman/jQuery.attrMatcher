@@ -1,0 +1,27 @@
+{
+  "name": "jquery.attrMatcher",
+  "version": "0.0.1",
+  "homepage": "https://github.com/nekman/jQuery.attrMatcher",
+  "authors": [
+    "nekman@github.com"
+  ],
+  "description": "Find elements with matching attributes.",
+  "main": "src/jquery.attrMatcher.js",
+  "keywords": [
+    "Attributes",
+    "DOM",
+    "match",
+    "find"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.0"
+  }
+}

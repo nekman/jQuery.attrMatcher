@@ -1,5 +1,8 @@
 #jQuery.attrMatcher
 
+[![Build Status](https://travis-ci.org/nekman/jQuery.attrMatcher.png?branch=master)](https://travis-ci.org/nekman/jQuery.attrMatcher)
+
+
 Searches for matching ```attributes``` and triggers a ```match``` event when it finds 
 elements with matching attributes.
 
