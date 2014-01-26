@@ -51,7 +51,7 @@ $('#table')
 
 Try the example here: http://jsfiddle.net/4M6nh/
 
-###Optional configuration
+###Configuration
 
 ```
   on
