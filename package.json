@@ -4,10 +4,10 @@
   "homepage": "https://github.com/nekman/jQuery.attrMatcher",
   "authors": [
     "nekman@github.com"
-  ],  
+  ],
   "description": "Find elements with matching attributes.",
   "repository": {
-    "type": "git",    
+    "type": "git",
     "url": "git://github.com/nekman/jQuery.attrMatcher.git"
   },
   "devDependencies": {
@@ -27,9 +27,14 @@
     "jshint-stylish": "~0.1.5"
   },
   "scripts": {
-    "test": "gulp"
+    "test": "gulp",
+    "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "engines": {
     "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "mocha-lcov-reporter": "0.0.1",
+    "coveralls": "~2.6.1"
   }
 }
