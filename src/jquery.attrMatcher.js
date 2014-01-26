@@ -1,5 +1,5 @@
 /**
- * http://plnkr.co/edit/Mou8b94hzmuIVjd7b63w?p=preview
+ * jQuery.attrMatcher
  */
 (function(global, factory) {
   // CommonJS
