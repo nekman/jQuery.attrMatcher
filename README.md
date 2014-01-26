@@ -49,7 +49,7 @@ $('#table')
   });
 ```
 
-Try the example here: http://jsfiddle.net/4M6nh/
+Try the example here: http://jsfiddle.net/APLvK/
 
 ###Configuration
 
