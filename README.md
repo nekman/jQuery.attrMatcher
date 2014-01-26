@@ -1,13 +1,12 @@
 #jQuery.attrMatcher
 
-Searches for matching ```attributes``` and triggers a ```match``` event when it has finds 
+Searches for matching ```attributes``` and triggers a ```match``` event when it finds 
 elements with matching attributes.
 
 ###Example
 
 Adds the ```highlight```class on ```mouseover```-events to ```tr``` with 
 the same values in their ```data-highlight```attribute.
-
 
 ```html
 <table id="table">
@@ -46,8 +45,34 @@ $('#table')
   })
   .find('tr')
   .attrMatcher({
-     attr: 'data-highlight'
+     attr: 'data-highlight' //Custom attribute
   });
 ```
 
 Try the example here: http://jsfiddle.net/4M6nh/
+
+###Optional configuration
+
+```
+  on
+```
+(string | default 'mouseenter') event that tells the plugin to search for matching attributes.
+
+```
+  off
+```
+(string | default 'mouseleave') event that tells the plugin to search for macthing attributes.
+
+```
+  attr
+```
+(string | default 'data-matcher') attribute to search for. <strong>NOTE:</strong> don't specify ```[]``` to the attribute.
+
+```
+  onmatch
+```
+(string | default 'match') custom event that gets triggered from the ```on``` event. Triggers when elements with matching attributes is found.
+```
+  onunmatch
+```
+(string | default 'unmatch') custom event that gets triggered from the ```off``` event. Triggers when elements with matching attributes is found.
