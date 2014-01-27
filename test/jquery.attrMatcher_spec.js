@@ -26,8 +26,9 @@ define(function(require, exports, module) {
 
     it('triggers "match" event', function() {
       var $parent = $('table tbody'),
-          $trs    = $parent.find('tr'),
-          spy     = sinon.spy($.fn, 'trigger');
+          $trs    = $parent.find('tr');
+
+      sinon.spy($.fn, 'trigger');
 
       $trs.attrMatcher({
         parent: $parent,
